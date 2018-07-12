@@ -1,0 +1,14 @@
+<!--pages/popular/popular.wxml-->
+
+<view class='container'>
+
+  <!-- header -->
+  <Header data="{{classic}}" />
+
+  <!-- content -->
+  <Content data="{{classic}}" />
+
+  <!-- 控制器 -->
+  <Console data="{{classic.title}}" class="console" bind:preNext='onChoiceTap' />
+
+</view>

@@ -1,0 +1,11 @@
+<!--components/content/Content.wxml-->
+<view class='content-con'>
+  
+  <view class='cover' wx:if="{{data.type == 200}}" >
+
+  </view>
+  <image class='cover-img' wx:else src='{{data.image}}'></image>
+
+  <image class='cover-type' src='/img/icon/movie-font.png'></image>
+  <view class='cover-text'>{{data.content}}</view>
+</view>

@@ -1,0 +1,141 @@
+page {
+  background: #fff;
+}
+
+
+/**
+* 字体大小类
+*/
+
+.font18 {
+  font-size: 18rpx;
+}
+
+.font20 {
+  font-size: 20rpx;
+}
+
+.font24 {
+  font-size: 24rpx;
+}
+
+.font28 {
+  font-size: 28rpx;
+}
+
+.font32 {
+  font-size: 32rpx;
+}
+
+.font34 {
+  font-size: 34rpx;
+}
+
+.font58 {
+  font-size: 58rpx;
+}
+
+/**
+* 颜色类
+*/
+
+.c-000 {
+  color: #000;
+}
+
+.c-0f {
+  color: #0f0f0f;
+}
+
+.c-1f {
+  color: #323232;
+}
+
+.c-999 {
+  color: #999;
+}
+
+.c-666 {
+  color: #666;
+}
+
+.c-bbb {
+  color: #bbb;
+}
+
+.c-red {
+  color: #e44040;
+}
+
+.c-01 {
+  color: #010101;
+}
+
+/**
+* 背景颜色类
+*/
+
+.bg-f7 {
+  background-color: #f7f7f7;
+}
+
+.bg-f9 {
+  background-color: #f9f9f9;
+}
+
+/*
+  边距类
+*/
+
+.p-30 {
+  padding: 30rpx;
+}
+
+.p-l-30 {
+  padding-left: 30rpx;
+}
+
+.p-t-30 {
+  padding-top: 30rpx;
+}
+
+.p-r-30 {
+  padding-right: 30rpx;
+}
+
+.p-b-30 {
+  padding-bottom: 30rpx;
+}
+
+.m-30 {
+  margin: 30rpx;
+}
+
+.m-t-30 {
+  margin-top: 30rpx;
+}
+
+.m-l-30 {
+  margin-left: 30rpx;
+}
+
+.m-b-30 {
+  margin-bottom: 30rpx;
+}
+
+.m-r-30 {
+  margin-right: 30rpx;
+}
+
+.m-t-15 {
+  margin-top: 15rpx;
+}
+
+.m-b-15 {
+  margin-bottom: 15rpx;
+}
+
+/*
+  布局类
+  20180617
+*/

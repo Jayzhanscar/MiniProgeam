@@ -1,0 +1,6 @@
+<!--components/console/Console.wxml-->
+<view class='console-con'>
+  <image class='pre' src='/img/icon/previous.png' catchtap='onPreTap'></image>
+  <text class='title'>{{data}}</text>
+  <image class='next' src='/img/icon/next.png' catchtap='onNextTap'></image>
+</view>

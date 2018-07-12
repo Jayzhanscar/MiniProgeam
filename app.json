@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/popular/popular",
+    "pages/books/books",
+    "pages/like/like"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "林白",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#c7c7c7",
+    "selectedColor": "#000",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/popular/popular",
+        "text": "流行",
+        "iconPath": "/img/tabIcon/classic.png",
+        "selectedIconPath": "/img/tabIcon/classic@highlight.png"
+      },
+      {
+        "pagePath": "pages/books/books",
+        "text": "书单",
+        "iconPath": "/img/tabIcon/book.png",
+        "selectedIconPath": "/img/tabIcon/book@highlight.png"
+      },
+      {
+        "pagePath": "pages/like/like",
+        "text": "喜欢",
+        "iconPath": "/img/tabIcon/my.png",
+        "selectedIconPath": "/img/tabIcon/my@highlight.png"
+      }
+    ]
+  }
+}

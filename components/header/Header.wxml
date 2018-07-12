@@ -1,0 +1,21 @@
+<!--components/header/Header.wxml-->
+<view class='header-con c-000'>
+
+  <view class='time'>
+    <text class='num font32'>No.<text class='day font58'>{{time.day}}</text></text>
+
+    <view class='cul'></view>
+
+    <view class='year-month'>
+      <text class='month font24'>{{time.month + '月'}}</text>
+      <text class='year font20'>{{time.year}}</text>
+    </view>
+
+  </view>
+
+  <view class='like-share'>
+    <image class='like' src='{{likeStatus?"/img/icon/like_fill.png" : "/img/icon/like.png"}}' catchtap='onLikeTap'></image>
+    <text class='like-num font18 c-bbb'>{{fav_nums}}</text>
+    <image class='share' src='/img/icon/share.png' catchtap='onShareTap'></image>
+  </view>
+</view>

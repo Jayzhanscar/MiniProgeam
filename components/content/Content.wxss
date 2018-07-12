@@ -1,0 +1,28 @@
+/* components/content/Content.wxss */
+
+.content-con{
+  position: relative;
+  overflow: hidden;
+}
+
+.cover-img{
+  width: 750rpx;
+  height: 500rpx;
+}
+
+.cover-type{
+  position: absolute;
+  width: 46rpx;
+  height: 142rpx;
+  left: 30rpx;
+  top: 440rpx
+}
+
+.cover-text{
+  margin-top: 120rpx;
+  width: 560rpx;
+  margin-left: 95rpx;
+  line-height: 50rpx;
+  font-size: 34rpx;
+  color: #0f0f0f
+}

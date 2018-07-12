@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "Header": "../../components/header/Header",
+    "Console": "../../components/console/Console",
+    "Content": "../../components/content/Content"
+  }
+}
